@@ -1,0 +1,90 @@
+baseURL = 'https://www.sh05.dev/'
+defaultContentLanguage = 'ja'
+title = '[WIP] My New Hugo Site'
+theme = 'cupper-hugo-theme'
+
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+
+[menu] # メニューバーの設定
+  [[menu.nav]]
+    name = "Blog"   # 表示される名称
+    url = "/posts/"    # 参照するアドレス
+    weight = 1
+  [[menu.nav]]
+    name = "About"   # 表示される名称
+    url = "/about/"    # 参照するアドレス
+    weight = 2
+  [[menu.nav]]
+    name = "Categories"   # 表示される名称
+    url = "/categories/"    # 参照するアドレス
+    weight = 3
+  [[menu.nav]]
+    name = "Tags"   # 表示される名称
+    url = "/tags/"    # 参照するアドレス
+    weight = 4
+  [[menu.nav]]
+    name = "Series"   # 表示される名称
+    url = "/series/"    # 参照するアドレス
+    weight = 5
+
+[params]
+  AuthorName = 'Jon Doe'
+  GitHubUser = 'spf13'
+  ListOfFoo = ['foo1', 'foo2']
+  SidebarRecentLimit = 5
+  Subtitle = 'Hugo is Absurdly Fast!'
+
+[permalinks]
+  posts = '/:year/:month/:title/'
+
+enableEmoji = true
+enableEmoji = true
+hasCJKLanguage = true
+timeZone = 'Asia/Tokyo'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+
+
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
