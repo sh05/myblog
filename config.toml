@@ -3,6 +3,7 @@ defaultContentLanguage = 'ja'
 title = '[WIP] My New Hugo Site'
 theme = 'cupper-hugo-theme'
 
+publishDir = "docs"
 
 [taxonomies]
   category = 'categories'
