@@ -4,6 +4,16 @@
     <title>Series on [WIP] My New Hugo Site</title>
     <link>https://www.sh05.dev/series/</link>
     <description>Recent content in Series on [WIP] My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.sh05.dev/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Oct 2021 23:28:00 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>リッチなブログを作る</title>
+      <link>https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/</link>
+      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

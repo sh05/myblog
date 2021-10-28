@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.sh05.dev/</loc>
-    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/categories/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/tags/fuga/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/categories/goobye/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/categories/hello/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/tags/hoge/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/2021/10/my-first-post/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/series/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/tags/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/</loc>
+    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
   </url><url>
     <loc>https://www.sh05.dev/posts/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sh05.dev/categories/</loc>
-  </url><url>
-    <loc>https://www.sh05.dev/series/</loc>
-  </url><url>
-    <loc>https://www.sh05.dev/tags/</loc>
   </url>
 </urlset>
