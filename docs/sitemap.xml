@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.sh05.dev/</loc>
-    <lastmod>2021-10-28T23:28:00+09:00</lastmod>
-  </url><url>
     <loc>https://www.sh05.dev/categories/</loc>
     <lastmod>2021-10-28T23:28:00+09:00</lastmod>
   </url><url>
@@ -32,7 +29,13 @@
     <loc>https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/</loc>
     <lastmod>2021-10-28T23:28:00+09:00</lastmod>
   </url><url>
+    <loc>https://www.sh05.dev/</loc>
+    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
+  </url><url>
     <loc>https://www.sh05.dev/posts/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sh05.dev/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
 </urlset>
