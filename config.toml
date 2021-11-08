@@ -1,6 +1,6 @@
-baseURL = 'https://www.sh05.dev/'
+baseURL = 'https://www.sh05.dev'
 defaultContentLanguage = 'ja'
-title = '[WIP] My New Hugo Site'
+title = '/var/logs/lifed/error_log'
 theme = 'cupper-hugo-theme'
 
 publishDir = "docs"
@@ -12,32 +12,40 @@ publishDir = "docs"
 
 [menu] # メニューバーの設定
   [[menu.nav]]
+    name = "Home"   # 表示される名称
+    url = "/"    # 参照するアドレス
+    weight = 1
+  [[menu.nav]]
     name = "Blog"   # 表示される名称
     url = "/posts/"    # 参照するアドレス
-    weight = 1
+    weight = 2
   [[menu.nav]]
     name = "About"   # 表示される名称
     url = "/about/"    # 参照するアドレス
-    weight = 2
+    weight = 3
   [[menu.nav]]
     name = "Categories"   # 表示される名称
     url = "/categories/"    # 参照するアドレス
-    weight = 3
+    weight = 4
   [[menu.nav]]
     name = "Tags"   # 表示される名称
     url = "/tags/"    # 参照するアドレス
-    weight = 4
+    weight = 5
   [[menu.nav]]
     name = "Series"   # 表示される名称
     url = "/series/"    # 参照するアドレス
-    weight = 5
+    weight = 6
+  [[menu.nav]]
+    name = "RSS"   # 表示される名称
+    url = "/index.xml"    # 参照するアドレス
+    weight = 7
 
 [params]
-  AuthorName = 'Jon Doe'
-  GitHubUser = 'spf13'
+  AuthorName = 'Shogo Nakamoto'
+  GitHubUser = 'sh05'
   ListOfFoo = ['foo1', 'foo2']
   SidebarRecentLimit = 5
-  Subtitle = 'Hugo is Absurdly Fast!'
+  Subtitle = 'ぼくの人生のエラーログ'
 
 [permalinks]
   posts = '/:year/:month/:title/'
