@@ -16,10 +16,10 @@ draft: false
 
 ## カスタマイズしたこと
 
-複数セクション
-複数taxonomy
-テンプレート修正
-コマンドで作業ログを残せるようにした https://github.com/sh05/myblog/blob/main/commit_work_log.sh
+- 複数セクション
+- 複数taxonomy
+- テンプレート修正
+- コマンドで作業ログを残せるようにした https://github.com/sh05/myblog/blob/main/commit_work_log.sh
 
 ## Todo
 
