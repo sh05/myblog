@@ -10,7 +10,7 @@
 
   
     
-    <meta name="description" content="今日の作業ログ 00:09:45 個人サイト作成中 ページネーション追加中 インクリメンタルサーチと衝突した，かなしい 00:14:52 個人サイトとりあえず完成 まだしょぼいのでこれから育てる 02:19:01 k8sの本を読んでいる https://book.impress.co.jp/books/1119101148 k get poができるように">
+    <meta name="description" content="今日の作業ログ 00:09:45 個人サイト作成中 ページネーション追加中 インクリメンタルサーチと衝突した，かなしい 00:14:52 個人サイトとりあえず完成 まだしょぼいのでこれから育てる 02:19:01 k8sの本を読んでいる https://book.impress.co.jp/books/1119101148 k get po ができるようにな">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.sh05.dev/apple-touch-icon.png">
@@ -368,6 +368,8 @@
     <li><a href="#000945-個人サイト作成中">00:09:45 個人サイト作成中</a></li>
     <li><a href="#001452-個人サイトとりあえず完成">00:14:52 個人サイトとりあえず完成</a></li>
     <li><a href="#021901-k8sの本を読んでいる">02:19:01 k8sの本を読んでいる</a></li>
+    <li><a href="#025717-ローカルにk8sクラスタ3つ立てた">02:57:17 ローカルにk8sクラスタ3つ立てた</a></li>
+    <li><a href="#030508-にshortcodesを使ってみた">03:05:08 ↑にshortcodesを使ってみた</a></li>
   </ul>
 </nav>
   </nav>
@@ -382,7 +384,23 @@
 <p>まだしょぼいのでこれから育てる</p>
 <h2 id="021901-k8sの本を読んでいる">02:19:01 k8sの本を読んでいる</h2>
 <p><a href="https://book.impress.co.jp/books/1119101148">https://book.impress.co.jp/books/1119101148</a><br>
-k get poができるようになった</p>
+
+
+<pre class="cmd">
+  
+  <code>k get po</code>
+  
+</pre>
+
+ができるようになった</p>
+<h2 id="025717-ローカルにk8sクラスタ3つ立てた">02:57:17 ローカルにk8sクラスタ3つ立てた</h2>
+<pre tabindex="0"><code>[sh05@sh05MBP][/Users/sh05/Study/Books/Kubernetes-Perfect-Guide][21-11-12 2:56]
+-&gt;k config get-contexts
+CURRENT   NAME               CLUSTER            AUTHINFO           NAMESPACE
+          docker-desktop     docker-desktop     docker-desktop
+          kind-kindcluster   kind-kindcluster   kind-kindcluster
+*         minikube           minikube           minikube           default
+</code></pre><h2 id="030508-にshortcodesを使ってみた">03:05:08 ↑にshortcodesを使ってみた</h2>
 
   </main>
   <div id="disqus-container">
