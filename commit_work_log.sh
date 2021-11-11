@@ -15,6 +15,12 @@ if ! [ -e $FILEPATH ] ; then
 fi
 
 "## "`date +%H:%M:%S` >> $FILEPATH
+
+if [ -z $? ] ; then
+  echo "failed commit work log"
+  exit 1
+fi
+
 echo $1 >> $FILEPATH
 
 if [ -z $? ] ; then
