@@ -10,9 +10,7 @@
 
   
     
-    <meta name="description" content="I decided to start learning Go in March 2017.
-
-Follow my journey through this new blog.">
+    <meta name="description" content="Posts">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.sh05.dev/apple-touch-icon.png">
@@ -55,14 +53,16 @@ Follow my journey through this new blog.">
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
   
+    <link rel="stylesheet" href="/css/mystyle.css">
+  
 
   
   
-  <title>My Go Journey | /var/logs/lifed/error_log</title>
+  <title>Posts | /var/logs/lifed/error_log</title>
 </head>
 
   <body>
-    <a href="#main"></a>
+    <a href="#main">skip to content</a>
     <noscript>
   <style>
     body {
@@ -168,8 +168,7 @@ Follow my journey through this new blog.">
       <a
         class="logo"
         href="https://www.sh05.dev"
-        aria-label="/var/logs/lifed/error_log home page"
-      >
+        aria-label="/var/logs/lifed/error_log home page" >
         
           <img 
             src="/images/logo.svg" 
@@ -177,17 +176,18 @@ Follow my journey through this new blog.">
           >
         
       </a>
+      <h4>/var/logs/lifed/error_log</h4>
       <p class="library-desc">
-        
+         ぼくの人生のエラーログ 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
-  <h2 class="vh"></h2>
+  <h2 class="vh">Main navigation</h2>
   <button id="menu-button" aria-expanded="false">
     <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
       <use xlink:href="#menu"></use>
     </svg>
-    
+    Menu
   </button>
   
   <ul id="patterns-list">
@@ -204,6 +204,7 @@ Follow my journey through this new blog.">
         <span class="text">Home</span>
       </a>
     </li>
+    
   
     <li class="pattern">
       
@@ -217,32 +218,23 @@ Follow my journey through this new blog.">
         <span class="text">Blog</span>
       </a>
     </li>
+    
   
     <li class="pattern">
       
       
       
       
-      <a href="/about/" >
+      <a href="/logs/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">About</span>
+        <span class="text">Logs</span>
       </a>
     </li>
-  
-    <li class="pattern">
-      
-      
-      
-      
-      <a href="/categories/" >
-        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-          <use xlink:href="#bookmark"></use>
-        </svg>
-        <span class="text">Categories</span>
-      </a>
-    </li>
+    
+      <hr style="border-width: 0; height: 2px; background-color:#888;">
+    
   
     <li class="pattern">
       
@@ -256,6 +248,21 @@ Follow my journey through this new blog.">
         <span class="text">Tags</span>
       </a>
     </li>
+    
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/categories/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Categories</span>
+      </a>
+    </li>
+    
   
     <li class="pattern">
       
@@ -269,6 +276,9 @@ Follow my journey through this new blog.">
         <span class="text">Series</span>
       </a>
     </li>
+    
+      <hr style="border-width: 0; height: 2px; background-color:#888;">
+    
   
     <li class="pattern">
       
@@ -282,6 +292,21 @@ Follow my journey through this new blog.">
         <span class="text">RSS</span>
       </a>
     </li>
+    
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/about/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">About</span>
+      </a>
+    </li>
+    
   
   </ul>
 </nav>
@@ -294,13 +319,20 @@ Follow my journey through this new blog.">
         <div>
           
 <main id="main">
-  <h1>My Go Journey</h1>
+  <h1>Posts</h1>
+  
+  <input
+    id="search"
+    type="text"
+    placeholder="Search in Posts"
+    aria-label="Search by title"
+  />
   
   <ul class="patterns-list" id="list">
     
     <li>
       <h2>
-        <a href="/2021/10/my-first-post/">
+        <a href="/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/">
           <svg
             class="bookmark"
             aria-hidden="true"
@@ -309,7 +341,7 @@ Follow my journey through this new blog.">
           >
             <use xlink:href="#bookmark"></use>
           </svg>
-          My First Post
+          個人サイト作った
         </a>
       </h2>
     </li>
@@ -323,7 +355,7 @@ Follow my journey through this new blog.">
   
   >
     <label for="themer">
-       <input type="checkbox" id="themer" class="vh">
+      dark theme: <input type="checkbox" id="themer" class="vh">
       
       <span aria-hidden="true"></span>
     </label>
@@ -341,6 +373,11 @@ Follow my journey through this new blog.">
 
 <script src="/js/prism.js"></script>
 
+
+
+<script src="/js/search.7aef046a0cc8b0c532f1d20087b920459bc868c936bb48a6ae221eceefca2d07.js"></script>
+
+<link rel="stylesheet" href="/css/search.fe0cd54a21628574bff49d721c827d1bb165ab56b0f22dd55ae78addbe61c309.css"></link>
 
 
 

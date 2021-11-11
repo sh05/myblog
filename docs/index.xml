@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on /var/logs/lifed/error_log</title>
+    <title>/var/logs/lifed/error_log</title>
     <link>https://www.sh05.dev/</link>
-    <description>Recent content in Home on /var/logs/lifed/error_log</description>
+    <description>Recent content on /var/logs/lifed/error_log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Jun 2017 18:27:58 +0100</lastBuildDate><atom:link href="https://www.sh05.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sh05.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/12 作業ログ</title>
+      <link>https://www.sh05.dev/logs/2021_11_12-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Fri, 12 Nov 2021 00:09:45 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/logs/2021_11_12-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</guid>
+      <description>今日の作業ログ 00:09:45 個人サイト作成中 ページネーション追加中 インクリメンタルサーチと衝突した，かなしい 00:14:52 個人サイトとりあえず完成 まだしょぼいのでこれから育てる</description>
+    </item>
+    
     <item>
       <title>2021/11/11 作業ログ</title>
       <link>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
       <pubDate>Thu, 11 Nov 2021 20:00:54 +0900</pubDate>
       
       <guid>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</guid>
-      <description>今日の作業ログ 個人サイト開発中 個人サイト開発中 個人サイト開発中 20:04:16 個人サイト開発中 20:04:53 個人サイト開発中_http://www.sh05.dev 20:05:41 個人サイト開発中_http://www.sh05.dev 20:05:52 個</description>
-    </item>
-    
-    <item>
-      <title>Date</title>
-      <link>https://www.sh05.dev/blog/date/</link>
-      <pubDate>Thu, 11 Nov 2021 00:03:56 +0900</pubDate>
-      
-      <guid>https://www.sh05.dev/blog/date/</guid>
-      <description>hello</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://www.sh05.dev/blog/test/</link>
-      <pubDate>Wed, 10 Nov 2021 22:00:30 +0900</pubDate>
-      
-      <guid>https://www.sh05.dev/blog/test/</guid>
-      <description>aaaa</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://www.sh05.dev/blog/my-first-post/</link>
-      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
-      
-      <guid>https://www.sh05.dev/blog/my-first-post/</guid>
-      <description>hello hello hello hello hello hello hello hello hello hello</description>
+      <description>今日の作業ログ 20:04:16 個人サイト開発中 http://www.sh05.dev 20:29:08 作業ログをコマンドでコミットできるようにしてる シェルの引数管理がめんどくさい</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://www.sh05.dev/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.sh05.dev/about/</guid>
-      <description>このサイトについて 運営者について Social Accounts GitHub Twitter Linkedin Qiita Social Accounts</description>
+      <description>このサイトについて このサイトはブログ(Blog)と作業ログ(Logs)を集約したサイトです Category, Tag, Seriesは共通です 運営者について [WIP] 経歴とか 今はLinkedinを見てください Social Accounts GitHub Twitter Linkedin Qiita</description>
+    </item>
+    
+    <item>
+      <title>個人サイト作った</title>
+      <link>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
+      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
+      <description>Hugoで個人サイト作った このサイト https://www.sh05.dev リポジトリ https://github.com/sh05/myblog カスタマイズしたこと 複数セクション 複数taxonomy テンプレート修正 コマンドで作業ログを残せるようにした https://github.com/sh05/myblog/blob/main/commit_work_log.sh Todo GitHub Actionsでビルドする(hugoコ</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://www.sh05.dev/esc_index/</link>
+      <pubDate>Mon, 26 Jun 2017 18:27:58 +0100</pubDate>
+      
+      <guid>https://www.sh05.dev/esc_index/</guid>
+      <description>こんにちはおやすみなさい Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features: Screen reader and keyboard accessible Responsive Numerous shortcodes Toggleable dark theme Toggleable table of contents per blog post</description>
     </item>
     
   </channel>

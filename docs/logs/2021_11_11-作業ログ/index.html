@@ -10,7 +10,7 @@
 
   
     
-    <meta name="description" content="今日の作業ログ 個人サイト開発中 個人サイト開発中 個人サイト開発中 20:04:16 個人サイト開発中 20:04:53 個人サイト開発中_http://www.sh05.dev 20:05:41 個人サイト開発中_http://www.sh05.dev 20:05:52 個">
+    <meta name="description" content="今日の作業ログ 20:04:16 個人サイト開発中 http://www.sh05.dev 20:29:08 作業ログをコマンドでコミットできるようにしてる シェルの引数管理がめんどくさい">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.sh05.dev/apple-touch-icon.png">
@@ -52,6 +52,8 @@
   
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
+  
+    <link rel="stylesheet" href="/css/mystyle.css">
   
 
   
@@ -165,9 +167,8 @@
     <div class="intro">
       <a
         class="logo"
-        href="https://www.sh05.dev/about"
-        aria-label="/var/logs/lifed/error_log home page"
-      >
+        href="https://www.sh05.dev"
+        aria-label="/var/logs/lifed/error_log home page" >
         
           <img 
             src="/images/logo.svg" 
@@ -175,8 +176,9 @@
           >
         
       </a>
+      <h4>/var/logs/lifed/error_log</h4>
       <p class="library-desc">
-        
+         ぼくの人生のエラーログ 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
@@ -195,7 +197,21 @@
       
       
       
-      <a href="/blog/" >
+      <a href="/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Home</span>
+      </a>
+    </li>
+    
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/posts/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,11 +241,11 @@
       
       
       
-      <a href="/categories/" >
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Categories</span>
+        <span class="text">Tags</span>
       </a>
     </li>
     
@@ -239,11 +255,11 @@
       
       
       
-      <a href="/tags/" >
+      <a href="/categories/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Tags</span>
+        <span class="text">Categories</span>
       </a>
     </li>
     
@@ -346,46 +362,22 @@
 
     
   <nav class="toc" aria-labelledby="toc-heading">
-    <strong id="toc-heading">Table of Contents</strong>
+    <strong id="toc-heading">目次</strong>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#200416">20:04:16</a></li>
-    <li><a href="#200453">20:04:53</a></li>
-    <li><a href="#200541">20:05:41</a></li>
-    <li><a href="#200552">20:05:52</a></li>
-    <li><a href="#201239">20:12:39</a></li>
-    <li><a href="#201342">20:13:42</a></li>
-    <li><a href="#201402">20:14:02</a></li>
-    <li><a href="#201502">20:15:02</a></li>
-    <li><a href="#201604">20:16:04</a></li>
+    <li><a href="#200416-個人サイト開発中">20:04:16 個人サイト開発中</a></li>
+    <li><a href="#202908-作業ログをコマンドでコミットできるようにしてる">20:29:08 作業ログをコマンドでコミットできるようにしてる</a></li>
   </ul>
 </nav>
   </nav>
 
 
 
-    <p>今日の作業ログ
-個人サイト開発中
-個人サイト開発中
-個人サイト開発中</p>
-<h2 id="200416">20:04:16</h2>
-<p>個人サイト開発中</p>
-<h2 id="200453">20:04:53</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="200541">20:05:41</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="200552">20:05:52</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="201239">20:12:39</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="201342">20:13:42</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="201402">20:14:02</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="201502">20:15:02</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
-<h2 id="201604">20:16:04</h2>
-<p>個人サイト開発中_<a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
+    <p>今日の作業ログ</p>
+<h2 id="200416-個人サイト開発中">20:04:16 個人サイト開発中</h2>
+<p><a href="http://www.sh05.dev">http://www.sh05.dev</a></p>
+<h2 id="202908-作業ログをコマンドでコミットできるようにしてる">20:29:08 作業ログをコマンドでコミットできるようにしてる</h2>
+<p>シェルの引数管理がめんどくさい</p>
 
   </main>
   <div id="disqus-container">

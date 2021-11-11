@@ -5,32 +5,14 @@
     <link>https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/</link>
     <description>Recent content in リッチなブログを作る on /var/logs/lifed/error_log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Nov 2021 00:03:56 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Oct 2021 23:28:00 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/series/%E3%83%AA%E3%83%83%E3%83%81%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Date</title>
-      <link>https://www.sh05.dev/blog/date/</link>
-      <pubDate>Thu, 11 Nov 2021 00:03:56 +0900</pubDate>
-      
-      <guid>https://www.sh05.dev/blog/date/</guid>
-      <description>hello</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://www.sh05.dev/blog/test/</link>
-      <pubDate>Wed, 10 Nov 2021 22:00:30 +0900</pubDate>
-      
-      <guid>https://www.sh05.dev/blog/test/</guid>
-      <description>aaaa</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://www.sh05.dev/blog/my-first-post/</link>
+      <title>個人サイト作った</title>
+      <link>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</link>
       <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
       
-      <guid>https://www.sh05.dev/blog/my-first-post/</guid>
-      <description>hello hello hello hello hello hello hello hello hello hello</description>
+      <guid>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
+      <description>Hugoで個人サイト作った このサイト https://www.sh05.dev リポジトリ https://github.com/sh05/myblog カスタマイズしたこと 複数セクション 複数taxonomy テンプレート修正 コマンドで作業ログを残せるようにした https://github.com/sh05/myblog/blob/main/commit_work_log.sh Todo GitHub Actionsでビルドする(hugoコ</description>
     </item>
     
   </channel>

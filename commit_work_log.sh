@@ -14,14 +14,14 @@ if ! [ -e $FILEPATH ] ; then
   echo "今日の作業ログ" >> $FILEPATH
 fi
 
-echo "## "`date +%H:%M:%S` >> $FILEPATH
-
-if [ -z $? ] ; then
-  echo "failed commit work log"
-  exit 1
+echo "## "`date +%H:%M:%S`" "$1 >> $FILEPATH
+if [ $# -ge 2 ] ; then
+  for ARG; do
+    if ! [ $ARG = $1 ]; then
+      echo "$ARG  " >> $FILEPATH
+    fi 
+  done
 fi
-
-echo $1 >> $FILEPATH
 
 if [ -z $? ] ; then
   echo "failed commit work log"

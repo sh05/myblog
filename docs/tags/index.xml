@@ -5,22 +5,31 @@
     <link>https://www.sh05.dev/tags/</link>
     <description>Recent content in Tags on /var/logs/lifed/error_log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Nov 2021 00:03:56 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Oct 2021 23:28:00 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fuga</title>
-      <link>https://www.sh05.dev/tags/fuga/</link>
-      <pubDate>Thu, 11 Nov 2021 00:03:56 +0900</pubDate>
+      <title>GitHub Pages</title>
+      <link>https://www.sh05.dev/tags/github-pages/</link>
+      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
       
-      <guid>https://www.sh05.dev/tags/fuga/</guid>
+      <guid>https://www.sh05.dev/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hoge</title>
-      <link>https://www.sh05.dev/tags/hoge/</link>
-      <pubDate>Thu, 11 Nov 2021 00:03:56 +0900</pubDate>
+      <title>Hugo</title>
+      <link>https://www.sh05.dev/tags/hugo/</link>
+      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
       
-      <guid>https://www.sh05.dev/tags/hoge/</guid>
+      <guid>https://www.sh05.dev/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>シェルスクリプト</title>
+      <link>https://www.sh05.dev/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</link>
+      <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/tags/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/</guid>
       <description></description>
     </item>
     

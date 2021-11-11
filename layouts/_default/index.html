@@ -1,0 +1,39 @@
+{{ define "main" }}
+    <main aria-role="main">
+          <header class="homepage-header">
+            <h1 style="text-align: center;">{{ .Site.Title }}</h1>
+            <h3 style="text-align: center;">{{ .Site.Params.description}}</h3>
+            <!-- {{ with .Site.Sections }} -->
+            <!-- <span class="subtitle">{{.}}</span> -->
+            <!-- {{ end }} -->
+          </header>
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+      </div>
+      <div>
+        {{ range .Site.Sections }}
+          <h2>最新の{{ .Title }}</h2>
+          <ul class="patterns-list" id="list">
+            {{ range first 5 .Pages.ByPublishDate.Reverse }}
+            <li>
+              <h4>
+                <a href="{{ .RelPermalink }}">
+                  <svg
+                    class="bookmark"
+                    aria-hidden="true"
+                    viewBox="0 0 40 50"
+                    focusable="false"
+                  >
+                    <use xlink:href="#bookmark"></use>
+                  </svg>
+                  {{ .Title }}
+                </a>
+              </h4>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </main>
+{{ end }}

@@ -53,6 +53,8 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
   
+    <link rel="stylesheet" href="/css/mystyle.css">
+  
 
   
   
@@ -165,9 +167,8 @@
     <div class="intro">
       <a
         class="logo"
-        href="https://www.sh05.dev/about"
-        aria-label="/var/logs/lifed/error_log home page"
-      >
+        href="https://www.sh05.dev"
+        aria-label="/var/logs/lifed/error_log home page" >
         
           <img 
             src="/images/logo.svg" 
@@ -175,8 +176,9 @@
           >
         
       </a>
+      <h4>/var/logs/lifed/error_log</h4>
       <p class="library-desc">
-        
+         ぼくの人生のエラーログ 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
@@ -195,7 +197,21 @@
       
       
       
-      <a href="/blog/" >
+      <a href="/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Home</span>
+      </a>
+    </li>
+    
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/posts/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,11 +241,11 @@
       
       
       
-      <a href="/categories/" >
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Categories</span>
+        <span class="text">Tags</span>
       </a>
     </li>
     
@@ -239,11 +255,11 @@
       
       
       
-      <a href="/tags/" >
+      <a href="/categories/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Tags</span>
+        <span class="text">Categories</span>
       </a>
     </li>
     
@@ -308,7 +324,7 @@
   <input
     id="search"
     type="text"
-    placeholder="Search by title..."
+    placeholder="Search in リッチなブログを作る"
     aria-label="Search by title"
   />
   
@@ -316,7 +332,7 @@
     
     <li>
       <h2>
-        <a href="/blog/date/">
+        <a href="/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/">
           <svg
             class="bookmark"
             aria-hidden="true"
@@ -325,39 +341,7 @@
           >
             <use xlink:href="#bookmark"></use>
           </svg>
-          Date
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/blog/test/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          Test
-        </a>
-      </h2>
-    </li>
-    
-    <li>
-      <h2>
-        <a href="/blog/my-first-post/">
-          <svg
-            class="bookmark"
-            aria-hidden="true"
-            viewBox="0 0 40 50"
-            focusable="false"
-          >
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          My First Post
+          個人サイト作った
         </a>
       </h2>
     </li>

@@ -52,6 +52,8 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
   
+    <link rel="stylesheet" href="/css/mystyle.css">
+  
 
   
   
@@ -166,9 +168,8 @@
     <div class="intro">
       <a
         class="logo"
-        href="https://www.sh05.dev/about"
-        aria-label="/var/logs/lifed/error_log home page"
-      >
+        href="https://www.sh05.dev"
+        aria-label="/var/logs/lifed/error_log home page" >
         
           <img 
             src="/images/logo.svg" 
@@ -176,8 +177,9 @@
           >
         
       </a>
+      <h4>/var/logs/lifed/error_log</h4>
       <p class="library-desc">
-        
+         ぼくの人生のエラーログ 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
@@ -196,7 +198,21 @@
       
       
       
-      <a href="/blog/" >
+      <a href="/" aria-current="page">
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Home</span>
+      </a>
+    </li>
+    
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/posts/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -226,11 +242,11 @@
       
       
       
-      <a href="/categories/" >
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Categories</span>
+        <span class="text">Tags</span>
       </a>
     </li>
     
@@ -240,11 +256,11 @@
       
       
       
-      <a href="/tags/" >
+      <a href="/categories/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
-        <span class="text">Tags</span>
+        <span class="text">Categories</span>
       </a>
     </li>
     
@@ -303,23 +319,80 @@
       <div class="main-and-footer">
         <div>
           
-  <main id="main">
-    <h1>Home</h1>
-    <p>こんにちはおやすみなさい
-Welcome to <strong>Cupper</strong>: An accessibility-friendly Hugo theme, ported from the <a href="https://github.com/ThePacielloGroup/cupper">original Cupper</a> project. Here are some of its features:</p>
-<div class="ticks">
-  <ul>
-<li>Screen reader and keyboard accessible</li>
-<li>Responsive</li>
-<li>Numerous shortcodes</li>
-<li>Toggleable dark theme</li>
-<li>Toggleable table of contents per blog post</li>
-</ul>
-
-</div>
-
-
-  </main>
+    <main aria-role="main">
+          <header class="homepage-header">
+            <h1 style="text-align: center;">/var/logs/lifed/error_log</h1>
+            <h3 style="text-align: center;">ぼくの人生のエラーログ</h3>
+            
+            
+            
+          </header>
+      <div class="homepage-content">
+        
+        
+      </div>
+      <div>
+        
+          <h2>最新のLogs</h2>
+          <ul class="patterns-list" id="list">
+            
+            <li>
+              <h4>
+                <a href="/logs/2021_11_12-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/">
+                  <svg
+                    class="bookmark"
+                    aria-hidden="true"
+                    viewBox="0 0 40 50"
+                    focusable="false"
+                  >
+                    <use xlink:href="#bookmark"></use>
+                  </svg>
+                  2021/11/12 作業ログ
+                </a>
+              </h4>
+            </li>
+            
+            <li>
+              <h4>
+                <a href="/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/">
+                  <svg
+                    class="bookmark"
+                    aria-hidden="true"
+                    viewBox="0 0 40 50"
+                    focusable="false"
+                  >
+                    <use xlink:href="#bookmark"></use>
+                  </svg>
+                  2021/11/11 作業ログ
+                </a>
+              </h4>
+            </li>
+            
+          </ul>
+        
+          <h2>最新のPosts</h2>
+          <ul class="patterns-list" id="list">
+            
+            <li>
+              <h4>
+                <a href="/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/">
+                  <svg
+                    class="bookmark"
+                    aria-hidden="true"
+                    viewBox="0 0 40 50"
+                    focusable="false"
+                  >
+                    <use xlink:href="#bookmark"></use>
+                  </svg>
+                  個人サイト作った
+                </a>
+              </h4>
+            </li>
+            
+          </ul>
+        
+      </div>
+    </main>
 
           
             <footer role="contentinfo">

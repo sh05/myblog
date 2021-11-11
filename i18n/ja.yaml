@@ -13,7 +13,7 @@
 - id: dark_theme
   translation: "dark theme:"
 - id: table_of_contents
-  translation: Table of Contents
+  translation: 目次
 - id: publish_date
   translation: "Publish date:"
 - id: last_updated
@@ -23,6 +23,6 @@
 - id: aria_label_tags
   translation: tags
 - id: search_placeholder
-  translation: Search by title...
+  translation: Search in
 - id: search_aria_label
   translation: Search by title
