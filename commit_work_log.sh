@@ -29,7 +29,8 @@ if [ -z $? ] ; then
 fi
 
 cat $FILEPATH
+hugo
 git add .
 git commit -m "commit work log"
 git push origin main
-open https://www.sh05.dev/
+open https://www.sh05.dev/logs/${TITLE%.*}
