@@ -12,7 +12,7 @@
     <li class="pattern">
       {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
       {{ $active = or $active (eq .Name $current.Title) }}
-      {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "posts")) }}
+      {{ $active = or $active (and (eq .Name "Home") (eq $current.Section "posts")) }}
       {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
       <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }}>
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
@@ -21,6 +21,9 @@
         <span class="text">{{ .Name }}</span>
       </a>
     </li>
+    {{ if or (eq .Name "Logs") (eq .Name "Series")}}
+      <hr style="border-width: 0; height: 2px; background-color:#888;">
+    {{ end }}
   {{ end }}
   </ul>
 </nav>

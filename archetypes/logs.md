@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+categories: ['作業ログ']
+toc: true
+draft: false
 ---
 

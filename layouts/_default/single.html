@@ -63,6 +63,22 @@
       </div>
     {{ end }}
 
+    {{ with .Params.logs }}
+      <div class="tags">
+        <strong aria-hidden="true">Logs: </strong>
+        <ul aria-label="{{ T "aria_label_tags" }}">
+          {{ range . }}
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              {{ $href := print ("logs/" | relLangURL) (. | urlize) "/" }}
+              <a href="{{ $href }}">{{ . }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
 
 
     {{ partial "toc.html" . }}

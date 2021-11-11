@@ -2,7 +2,8 @@ baseURL = 'https://www.sh05.dev'
 defaultContentLanguage = 'ja'
 title = '/var/logs/lifed/error_log'
 theme = 'cupper-hugo-theme'
-
+summarylength = 100
+HasCJKLanguage = true
 publishDir = "docs"
 
 [taxonomies]
@@ -11,34 +12,38 @@ publishDir = "docs"
   tag = 'tags'
 
 [menu] # メニューバーの設定
-  [[menu.nav]]
-    name = "Home"   # 表示される名称
-    url = "/"    # 参照するアドレス
-    weight = 1
+  # [[menu.nav]]
+  #   name = "Home"   # 表示される名称
+  #   url = "/"    # 参照するアドレス
+  #   weight = 1
   [[menu.nav]]
     name = "Blog"   # 表示される名称
-    url = "/posts/"    # 参照するアドレス
-    weight = 2
+    url = "/blog/"    # 参照するアドレス
+    weight = 1
   [[menu.nav]]
     name = "About"   # 表示される名称
     url = "/about/"    # 参照するアドレス
-    weight = 3
+    weight = 100
   [[menu.nav]]
     name = "Categories"   # 表示される名称
     url = "/categories/"    # 参照するアドレス
-    weight = 4
+    weight = 11
   [[menu.nav]]
     name = "Tags"   # 表示される名称
     url = "/tags/"    # 参照するアドレス
-    weight = 5
+    weight = 12
   [[menu.nav]]
     name = "Series"   # 表示される名称
     url = "/series/"    # 参照するアドレス
-    weight = 6
+    weight = 13
+  [[menu.nav]]
+    name = "Logs"   # 表示される名称
+    url = "/logs/"    # 参照するアドレス
+    weight = 2
   [[menu.nav]]
     name = "RSS"   # 表示される名称
     url = "/index.xml"    # 参照するアドレス
-    weight = 7
+    weight = 99
 
 [params]
   AuthorName = 'Shogo Nakamoto'
@@ -46,9 +51,14 @@ publishDir = "docs"
   ListOfFoo = ['foo1', 'foo2']
   SidebarRecentLimit = 5
   Subtitle = 'ぼくの人生のエラーログ'
+  hideHeaderLinks = true
+  search = true
+  readingTime = true
+  wordCount = true
+  socialShare = true
 
 [permalinks]
-  posts = '/:year/:month/:title/'
+  posts = '/:year/:month/:day/:title/'
 
 enableEmoji = true
 enableEmoji = true
