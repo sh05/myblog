@@ -35,4 +35,4 @@ git commit -m "commit work log"
 git push origin main
 
 echo "https://www.sh05.dev/logs/${TITLE%.*}"
-open -a /Applications/Google\ Chrome.app "https://www.sh05.dev/logs/${TITLE%.*}"
+open -a /Applications/Google\ Chrome.app "https://www.sh05.dev/logs/${TITLE%.*}/"
