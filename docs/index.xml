@@ -7,13 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Jun 2017 18:27:58 +0100</lastBuildDate><atom:link href="https://www.sh05.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2021/11/11 作業ログ</title>
+      <link>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Thu, 11 Nov 2021 19:54:19 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</guid>
+      <description>19:54:19 test</description>
+    </item>
+    
+    <item>
+      <title>Date</title>
+      <link>https://www.sh05.dev/blog/date/</link>
+      <pubDate>Thu, 11 Nov 2021 00:03:56 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/blog/date/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://www.sh05.dev/blog/test/</link>
+      <pubDate>Wed, 10 Nov 2021 22:00:30 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/blog/test/</guid>
+      <description>{{ }}</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
-      <link>https://www.sh05.dev/2021/10/my-first-post/</link>
+      <link>https://www.sh05.dev/blog/my-first-post/</link>
       <pubDate>Thu, 28 Oct 2021 23:28:00 +0900</pubDate>
       
-      <guid>https://www.sh05.dev/2021/10/my-first-post/</guid>
-      <description>hello hello hello hello hello
-hello hello hello hello hello</description>
+      <guid>https://www.sh05.dev/blog/my-first-post/</guid>
+      <description>hello hello hello hello hello hello hello hello hello hello</description>
     </item>
     
     <item>
@@ -22,9 +48,7 @@ hello hello hello hello hello</description>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.sh05.dev/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+      <description>このサイトについて 運営者について Social Accounts GitHub Twitter Linkedin Qiita Social Accounts</description>
     </item>
     
   </channel>
