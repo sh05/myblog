@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作業ログ on /var/logs/lifed/error_log</title>
+    <link>https://www.sh05.dev/categories/%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in 作業ログ on /var/logs/lifed/error_log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Nov 2021 20:00:54 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/categories/%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/11/11 作業ログ</title>
+      <link>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
+      <pubDate>Thu, 11 Nov 2021 20:00:54 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/logs/2021_11_11-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</guid>
+      <description>今日の作業ログ 個人サイト開発中</description>
+    </item>
+    
+  </channel>
+</rss>
