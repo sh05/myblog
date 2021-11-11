@@ -14,7 +14,7 @@ if ! [ -e $FILEPATH ] ; then
   echo "今日の作業ログ" >> $FILEPATH
 fi
 
-"## "`date +%H:%M:%S` >> $FILEPATH
+"## "$(date +%H:%M:%S) >> $FILEPATH
 
 if [ -z $? ] ; then
   echo "failed commit work log"
@@ -31,5 +31,5 @@ fi
 cat $FILEPATH
 git add -u
 git commit -m "commit work log"
-git push origin main
-open https://www.sh05.dev/
+# git push origin main
+# open https://www.sh05.dev/
