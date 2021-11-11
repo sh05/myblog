@@ -14,7 +14,7 @@ if ! [ -e $FILEPATH ] ; then
   echo "今日の作業ログ" >> $FILEPATH
 fi
 
-"## "$(date +%H:%M:%S) >> $FILEPATH
+echo "## "`date +%H:%M:%S` >> $FILEPATH
 
 if [ -z $? ] ; then
   echo "failed commit work log"
