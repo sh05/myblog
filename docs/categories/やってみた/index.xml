@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>やってみた on /var/logs/lifed/error_log</title>
+    <link>https://www.sh05.dev/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+    <description>Recent content in やってみた on /var/logs/lifed/error_log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Nov 2021 23:48:20 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoEmotionsのデモを動かす</title>
+      <link>https://www.sh05.dev/2021/11/15/goemotions%E3%81%AE%E3%83%87%E3%83%A2%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99/</link>
+      <pubDate>Mon, 15 Nov 2021 23:48:20 +0900</pubDate>
+      
+      <guid>https://www.sh05.dev/2021/11/15/goemotions%E3%81%AE%E3%83%87%E3%83%A2%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99/</guid>
+      <description>やったこと GoEmotions: A Dataset of Fine-Grained Emotionsのリポジトリを見に行ったら遊べそうだったのでコードが動くまでのセットアップをする できたもの バージョン合わせるのが大変なのでForkしてDockerfileとdock</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.88.1" />
-  <link rel="canonical" href="/categories/">
+  <link rel="canonical" href="/2021/11/15/goemotions%E3%81%AE%E3%83%87%E3%83%A2%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99/">
 
   
     
-    <meta name="description" content="Categories">
+    <meta name="description" content="やったこと GoEmotions: A Dataset of Fine-Grained Emotionsのリポジトリを見に行ったら遊べそうだったのでコードが動くまでのセットアップをする できたもの バージョン合わせるのが大変なのでForkしてDockerfileとdock">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.sh05.dev/apple-touch-icon.png">
@@ -58,7 +58,7 @@
 
   
   
-  <title>Categories | /var/logs/lifed/error_log</title>
+  <title>GoEmotionsのデモを動かす | /var/logs/lifed/error_log</title>
 </head>
 
   <body>
@@ -211,7 +211,7 @@
       
       
       
-      <a href="/posts/" >
+      <a href="/posts/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -255,7 +255,7 @@
       
       
       
-      <a href="/categories/" aria-current="page">
+      <a href="/categories/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -319,44 +319,188 @@
         <div>
           
   <main id="main">
-    <h1>Categories</h1>
-    <ul class="patterns-list">
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      GoEmotionsのデモを動かす
+    </h1>
+
+    
+      <div class="tags">
+          
+              
+              <strong aria-hidden="true">Series: </strong> <a href="/series/goemotions/">GoEmotions</a>
+          
+      </div>
+    
+
+    <div class="date">
       
-        <li>
-          <h2>
-            <a href="/categories/%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/">
+      
+      <strong>Publish: </strong>Nov 15, 2021
+      
+        
+      
+    </div>
+
+
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              (1) つくった
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/">
+              
+              <a href="/tags/docker/">Docker</a>
+            </li>
+          
+            <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              (1) やってみた
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/">
+              
+              <a href="/tags/%E6%84%9F%E6%83%85%E5%88%86%E9%A1%9E/">感情分類</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
+    
+      <div class="tags">
+        <strong aria-hidden="true">Categories: </strong>
+        <ul aria-label="tags">
+          
+            <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              (3) 作業ログ
-            </a>
-          </h2>
-        </li>
-      
-    </ul>
+              
+              <a href="/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/">やってみた</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
+    
+
+
+    
+  <nav class="toc" aria-labelledby="toc-heading">
+    <strong id="toc-heading">目次</strong>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#やったこと">やったこと</a></li>
+    <li><a href="#できたもの">できたもの</a>
+      <ul>
+        <li><a href="#動かし方">動かし方</a></li>
+      </ul>
+    </li>
+    <li><a href="#内容">内容</a>
+      <ul>
+        <li><a href="#python39では動かない">python3.9では動かない😭</a></li>
+        <li><a href="#docker用のrunshを作る">Docker用のrun.shを作る</a></li>
+        <li><a href="#dockerfileを作る">Dockerfileを作る</a></li>
+        <li><a href="#docker-composeyamlを作る">docker-compose.yamlを作る</a></li>
+      </ul>
+    </li>
+    <li><a href="#ぶっちゃけ">ぶっちゃけ</a></li>
+  </ul>
+</nav>
+  </nav>
+
+
+
+    <h2 id="やったこと">やったこと</h2>
+<p><a href="https://arxiv.org/abs/2005.00547">GoEmotions: A Dataset of Fine-Grained Emotions</a>の<a href="https://github.com/google-research/google-research/tree/master/goemotions">リポジトリ</a>を見に行ったら遊べそうだったのでコードが動くまでのセットアップをする</p>
+<h2 id="できたもの">できたもの</h2>
+<p>バージョン合わせるのが大変なのでForkしてDockerfileとdocker-compose.yamlを用意した
+<a href="https://github.com/sh05/google-research/tree/master/goemotions">https://github.com/sh05/google-research/tree/master/goemotions</a></p>
+<h3 id="動かし方">動かし方</h3>
+<p>まずClone
+
+
+<pre class="cmd">
+  
+  <code>git clone git@github.com:sh05/google-research.git</code>
+  
+</pre>
+</p>
+<p>データダウンロード
+
+
+<pre class="cmd">
+  
+  <code>cd goemotions</code>
+  
+  <code>wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_1.csv</code>
+  
+  <code>wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_2.csv</code>
+  
+  <code>wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_3.csv</code>
+  
+</pre>
+</p>
+<p>ビルドして実行
+
+
+<pre class="cmd">
+  
+  <code>cd ..</code>
+  
+  <code>docker-compose build</code>
+  
+  <code>docker-compose --rm run go_emotions python -m analyze_data # とか</code>
+  
+</pre>
+</p>
+<h2 id="内容">内容</h2>
+<h3 id="python39では動かない">python3.9では動かない😭</h3>
+<ol>
+<li>bertはtf2.0ではうごきません</li>
+<li>tf1.xはpython3.9にははいりません</li>
+</ol>
+<p>選択肢はpyenvかDockerが思い浮かんだのでDockerでやる</p>
+<h3 id="docker用のrunshを作る">Docker用のrun.shを作る</h3>
+<p>run.shからvirtualenv関係の行を消す</p>
+<pre tabindex="0"><code>[sh05@sh05MBP][/Users/sh05/Study/Forked/google-research][21-11-16 0:04][master]
+-&gt;diff goemotions/run.sh goemotions/docker-run.sh
+33,34d32
+&lt; virtualenv -p python3 .
+&lt; source ./bin/activate
+</code></pre><h3 id="dockerfileを作る">Dockerfileを作る</h3>
+<p><a href="https://qiita.com/shoheihagiwara/items/5a3a4dac29b26836f185">pip install tensorflow==1.x がエラーになるとき</a>によると，tf1にはpython3.7がいいらしいので</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Dockerfile" data-lang="Dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> python:3.7</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /goemotions</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ADD</span> ./docker-run.sh /goemotions<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ADD</span> ./requirements.txt /goemotions<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> goemotions/docker-run.sh<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><h3 id="docker-composeyamlを作る">docker-compose.yamlを作る</h3>
+<p>ファイルごとDocker Imageに固めるより実行環境としてコンテナを扱ってスクリプトなどをマウントするほうが好き</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#34;3.3&#34;</span>
+<span style="color:#f92672">services</span>:
+  <span style="color:#f92672">go_emotions</span>:
+    <span style="color:#f92672">build</span>: <span style="color:#ae81ff">goemotions</span>
+    <span style="color:#f92672">volumes</span>:
+      - <span style="color:#ae81ff">./goemotions/:/goemotions</span>
+    <span style="color:#f92672">working_dir</span>: <span style="color:#ae81ff">/goemotions</span>
+</code></pre></div><p>あとは<a href="/2021/11/15/goemotions%E3%81%AE%E3%83%87%E3%83%A2%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99/#%E5%8B%95%E3%81%8B%E3%81%97%E6%96%B9">これ</a>の通りに動かす</p>
+<h2 id="ぶっちゃけ">ぶっちゃけ</h2>
+<p><a href="https://github.com/tensorflow/models/blob/master/research/seq_flow_lite/demo/colab/emotion_colab.ipynb">Colabのノート</a>が用意されているのでこれでいい</p>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           
             <footer role="contentinfo">
