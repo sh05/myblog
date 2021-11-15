@@ -13,6 +13,15 @@
     {{ range .Pages.ByPublishDate.Reverse }}
     <li>
       <h2>
+      <div class="date" style="color: gray;">
+        {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+        {{ $publishDate := .PublishDate }}
+        {{ $publishDate.Format $dateFormat }}
+        {{ with .Lastmod }}
+        {{ if gt . $publishDate }}
+        {{ end }}
+        {{ end }}
+      </div>
         <a href="{{ .RelPermalink }}">
           <svg
             class="bookmark"
