@@ -6,7 +6,6 @@ summarylength = 100
 HasCJKLanguage = true
 publishDir = "docs"
 paginate = 10
-googleAnalytics = "G-EP9D06R4JJ"
 
 [taxonomies]
   category = 'categories'
