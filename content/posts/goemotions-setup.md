@@ -88,7 +88,7 @@ services:
       - ./goemotions/:/goemotions
     working_dir: /goemotions
 ```
-あとは[これ](/2021/11/15/goemotionsのデモを動かす/#動かし方)の通りに動かす
+あとは[これ](#動かし方)の通りに動かす
 
 ## ぶっちゃけ
 
