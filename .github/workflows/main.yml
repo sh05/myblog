@@ -30,4 +30,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        # run: hugo --minify
+        run: |
+          ls
+          hugo
