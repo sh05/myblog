@@ -64,7 +64,6 @@ googleAnalytics = "UA-212963708-1"
   posts = '/:year/:month/:day/:title/'
 
 enableEmoji = true
-enableEmoji = true
 hasCJKLanguage = true
 timeZone = 'Asia/Tokyo'
 
