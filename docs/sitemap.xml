@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.sh05.dev/</loc>
-    <lastmod>2021-12-04T20:02:14+09:00</lastmod>
-  </url><url>
     <loc>https://www.sh05.dev/logs/2021_12_04-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2021-12-04T20:02:14+09:00</lastmod>
   </url><url>
@@ -56,6 +53,9 @@
     <loc>https://www.sh05.dev/about/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.sh05.dev/</loc>
+    <lastmod>2021-11-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.sh05.dev/tags/github-pages/</loc>
     <lastmod>2021-10-28T23:28:00+09:00</lastmod>
   </url><url>
@@ -73,8 +73,5 @@
   </url><url>
     <loc>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</loc>
     <lastmod>2021-10-28T23:28:00+09:00</lastmod>
-  </url><url>
-    <loc>https://www.sh05.dev/esc_index/</loc>
-    <lastmod>2017-06-26T18:27:58+01:00</lastmod>
   </url>
 </urlset>

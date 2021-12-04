@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>/var/logs/lifed/error_log</title>
+    <title>Home on /var/logs/lifed/error_log</title>
     <link>https://www.sh05.dev/</link>
-    <description>Recent content on /var/logs/lifed/error_log</description>
+    <description>Recent content in Home on /var/logs/lifed/error_log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Dec 2021 20:02:14 +0900</lastBuildDate><atom:link href="https://www.sh05.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sh05.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021/12/04 作業ログ</title>
       <link>https://www.sh05.dev/logs/2021_12_04-%E4%BD%9C%E6%A5%AD%E3%83%AD%E3%82%B0/</link>
@@ -76,15 +76,6 @@
       
       <guid>https://www.sh05.dev/2021/10/28/%E5%80%8B%E4%BA%BA%E3%82%B5%E3%82%A4%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%9F/</guid>
       <description>Hugoで個人サイト作った このサイト https://www.sh05.dev リポジトリ https://github.com/sh05/myblog カスタマイズしたこと 複数セクション 複数taxonomy テンプレート修正 コマンドで作業ログを残せるようにした https://github.com/sh05/myblog/blob/main/commit_work_log.sh Todo GitHub Actionsでビルドする(hugoコ</description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>https://www.sh05.dev/esc_index/</link>
-      <pubDate>Mon, 26 Jun 2017 18:27:58 +0100</pubDate>
-      
-      <guid>https://www.sh05.dev/esc_index/</guid>
-      <description>こんにちはおやすみなさい Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features: Screen reader and keyboard accessible Responsive Numerous shortcodes Toggleable dark theme Toggleable table of contents per blog post</description>
     </item>
     
   </channel>
