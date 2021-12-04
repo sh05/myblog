@@ -31,12 +31,6 @@ jobs:
         with:
           hugo-version: '0.88.1'
           extended: true
-          
-      - name: debug
-        run: |
-          ls 
-          ls themes
-          ls themes/cupper-hugo-theme
         
       - name: Build
         run: hugo --minify
