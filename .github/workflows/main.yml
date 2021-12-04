@@ -28,9 +28,10 @@ jobs:
         with:
           hugo-version: '0.88.1'
           extended: true
-
+          
+      - name: debug
+        run: ls
+        
       - name: Build
-        run: |
-        ls
-        hugo
+        run: hugo
 
