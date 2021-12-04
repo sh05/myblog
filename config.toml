@@ -58,7 +58,7 @@ googleAnalytics = "UA-212963708-1"
   readingTime = true
   wordCount = true
   socialShare = true
-  customCSS = ["/css/mystyle.css"]
+  customCSS = ["/css/mystyle.css", "/css/styles.css"]
 
 [permalinks]
   posts = '/:year/:month/:day/:title/'
