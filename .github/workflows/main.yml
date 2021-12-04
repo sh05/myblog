@@ -30,7 +30,10 @@ jobs:
           extended: true
           
       - name: debug
-        run: ls
+        run: |
+          ls 
+          ls themes
+          ls themes/cupper-hugo-theme
         
       - name: Build
         run: hugo
